@@ -1,17 +1,94 @@
 body{
-    justify-content: center;
     align-items: center;
-    display: block;
-    height: 100%;
-    width: 100%;
+    justify-content: center;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    position:fixed;
 }
 #contorno{
     width: 30%;
     height: 30%;
-    background-color: #808080;
+    min-width: 500px;
+    min-height: 500px;
+    background-color:#26547c;
     display: flex;
-    position:fixed;
+    margin: 5%;
     justify-content: center;
     align-items: center;
+}
+#calculadora{
+    min-width: 50px;
+    min-height: 50px;
+    margin: 20px 20px;
+    height: 90%;
+    width: 90%;
+    justify-items: center;
+    align-items: center;
+    background-color: #ef466f;
+    color: white;
+    display: flex;
+    flex-direction: column;
+   
+}
 
+#supCal{
+display:flex;
+flex-wrap: wrap;
+height:20%;
+width: 90%;
+justify-content: space-between;
+align-items: center;
+}
+
+
+#infCal{
+    justify-content: space-between;
+    height: 80%;
+    width: 90%;
+    display:flex;
+    flex-wrap: wrap;
+}
+#btSup{
+background-color: #26547c;
+color:white;
+height: 50%;
+width: 22%;
+padding: auto;
+display: flex;
+margin: 0 auto;
+text-align: center;
+border-radius: 20px;
+justify-content: center;
+
+}
+#btSup2{
+    background-color: #26547c;
+    color:white;
+    height: 50%;
+    width: 22%;
+    padding: auto;
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 20px;
+    justify-content: center;
+    
+    }
+button{
+background-color: #26547c;
+color:white;
+height: 20%;
+width: 22%;
+display: flex;
+margin: 0 auto;
+text-align: center;
+
+border-radius: 20px;
+
+}
+
+.operacion{
+    background-color: #ffd166;
+    color: #26547c;
 }
