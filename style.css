@@ -1,0 +1,17 @@
+body{
+    justify-content: center;
+    align-items: center;
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+#contorno{
+    width: 30%;
+    height: 30%;
+    background-color: #808080;
+    display: flex;
+    position:fixed;
+    justify-content: center;
+    align-items: center;
+
+}
